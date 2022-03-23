@@ -1,10 +1,9 @@
 package com.acsalamancaf.dscatalog.services.exceptions;
 
-public class ResourceNotFoundException extends RuntimeException{
+public class DataBaseException extends RuntimeException{
 	private static final long serialVersionUID = 1L;
 	
-	
-	public ResourceNotFoundException(String msg) {
+	public DataBaseException(String msg) {
 		super(msg);
 	}
 
